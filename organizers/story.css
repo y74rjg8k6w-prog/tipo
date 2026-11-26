@@ -29,6 +29,8 @@
 
 .hero-eyebrow{display:block;margin-bottom:24px;color:var(--ink)}
 .nav-current{display:inline-flex;align-items:center;min-height:44px;opacity:1;border-bottom:1px solid #ddd4c5}
-@media(max-width:800px){.nav-current{display:none}.hero-eyebrow{margin-bottom:20px}}
+@media(max-width:800px){.hero-eyebrow{margin-bottom:20px}}
 
 @media(max-width:375px){.hero h1{font-size:clamp(56px,17vw,64px)}}
+
+.organizer-contact{margin-top:20px;min-height:44px}.nav-organizers.nav-current{border-bottom-color:#ddd4c5}
